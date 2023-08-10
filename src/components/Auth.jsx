@@ -5,7 +5,7 @@ import {
   signInWithPopup,
   signOut,
 } from "firebase/auth";
-import auth from "../config/firebase";
+import { auth } from "../config/firebase";
 
 const Auth = () => {
   const [email, setEmail] = useState("");

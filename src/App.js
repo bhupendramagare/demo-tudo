@@ -1,11 +1,12 @@
 import React from "react";
-import Auth from "./components/Auth";
+import CRUD from "./components/CRUD";
+import "./styles/crud.css";
 
 const App = () => {
   return (
-    <div>
-      <Auth />
-    </div>
+    <>
+      <CRUD />
+    </>
   );
 };
 
